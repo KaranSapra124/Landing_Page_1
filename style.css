@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Navbar */
+.Navbar>ul {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Navbar>ul>.Div1 {
+    display: flex;
+    list-style: none;
+}
+
+.Navbar>ul>.Div1>li {
+    border-right: 0.2rem solid #F2F1EB;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.Navbar>ul>.Div2 {
+    display: flex;
+    list-style: none;
+}
+
+.Navbar>ul>.Div2>li {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.Navbar>ul>.Div2>button {
+    border: 1px solid rgb(240, 240, 65);
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    background: rgb(240, 240, 65);
+    font-weight: 900;
+    cursor: pointer;
+    
+}
+
+/* Navbar */
+/* Main Div */
+.ParentDiv {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    font-size: 1.5rem;
+    height: 100vh;
+    background: #F2F1EB;
+}
+
+.ParentDiv>.Sub-ParentDiv {
+    margin: 2rem;
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    margin: auto 5rem;
+    
+}
+
+.ParentDiv>.Sub-ParentDiv> h1 {
+    font-size: 3.5rem;
+    color: rgb(44, 44, 81);
+}
+
+.ParentDiv > .Sub-ParentDiv > p{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: black;
+}
+
+.ParentDiv > .Sub-ParentDiv > button {
+    background: rgb(7, 7, 58);
+    padding: 1rem;
+    width: fit-content;
+    color: rgb(201, 201, 89);
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 1.2rem;
+    border: rgb(7, 7, 58) solid 1px;
+    cursor: pointer;
+}
+
+.ParentDiv > .Sub2-ParentDiv{
+    position: absolute;
+    margin-left: 60vw;
+    margin-bottom: 10rem;
+}
+
+.ParentDiv > .Sub2-ParentDiv > .Img1{
+    position: absolute;
+    width: 25rem;
+    border-radius: 1rem;
+}
+.ParentDiv > .Sub2-ParentDiv > .Img2{
+    position: relative;
+    width: 12rem;
+    margin-left: 150%;
+    margin-top: 150%;
+    border-radius: 1rem;
+}
